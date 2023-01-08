@@ -81,15 +81,16 @@ TEMPLATES = [
 WSGI_APPLICATION = 'devops.wsgi.application'
 
 
-if development:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
-    }
-else:
-    DATABASES = {
+# if development:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
+# else:
+
+DATABASES = {
     'default': dj_database_url.parse('postgres://corvkplx:wCZksAljEDnfRjkBvQoBsn9VccXWE_ma@lucky.db.elephantsql.com/corvkplx')  # noqa
 }
 
