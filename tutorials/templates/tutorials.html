@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-4 text-center">
+            {% if "placeholder" in about.profile_image.url %}
+            <img src="{% static 'images/nobody.jpg' %}" width="75%">
+            {% else %}
+            <img src="{{ about.profile_image.url }}" width="75%">
+            {% endif %}
+        </div>
+        <div class="col-8 text-center"> <!-- Add text-center class here -->
+            <h2>{{ about.title }}</h2>
+            {{ about.content | safe }}
+            <p>This section is all about tutorials</p>
+            {% if "placeholder" in about.blog_image.url %}
+            <img src="{% static 'images/default_blog_image.jpg' %}" width="100%">
+            {% else %}
+            <img src="{{ about.blog_image.url }}" width="100%">
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock content %}

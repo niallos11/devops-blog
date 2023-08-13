@@ -100,6 +100,9 @@ Fixed errors.
 ### WireFrames
 This site was designed and planned out with wireframes before deployment. 
 
+![image](https://github.com/niallos11/devops-blog-dev/assets/5288061/8a37c175-6863-490e-9b6f-567dbe4b5a3f)
+
+
 
 ### Deployment:
 
@@ -134,3 +137,17 @@ The live link can be found here - https://devopsblog-9ee0000374f1.herokuapp.com/
 - The images used for the background page were taken from a Open Source site.
 - The fav icon was taken from - https://www.favicon.cc
 - The images were resized & edited with - https://www12.lunapic.com/editor/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

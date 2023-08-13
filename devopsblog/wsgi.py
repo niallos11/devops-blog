@@ -1,5 +1,5 @@
 """
-WSGI config for devopsblog project.
+WSGI config for DevOpsBlog project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
