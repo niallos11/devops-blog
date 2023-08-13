@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+from django.contrib.messages import constants as messages
 from pathlib import Path
 import os
 import dj_database_url
@@ -34,6 +35,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-niallos11-devops-blog-xasi278dvt.us2.codeanyapp.com',
                  'devopsblog-9ee0000374f1.herokuapp.com']
+
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 
 # Application definition
@@ -61,8 +65,6 @@ SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-
-from django.contrib.messages import constants as messages
 
 MESSAGE_TAGS = {
     messages.DEBUG: 'alert-info',
