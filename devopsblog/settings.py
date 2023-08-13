@@ -15,7 +15,7 @@ import os
 import dj_database_url
 
 if os.path.isfile("env.py"):
-    import env
+   import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -32,8 +32,7 @@ SECRET_KEY = 'django-insecure-2#qz$^0cwa2qd%42^ebg)x(pu8lhu5oeby0s6xfe_)6y7dq0_t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-niallos11-devops-blog-xasi278dvt.us2.codeanyapp.com',
-                 'devopsblog-9ee0000374f1.herokuapp.com']
+ALLOWED_HOSTS = ['8000-niallos11-devops-blog-sr1cmktcz5.us2.codeanyapp.com','devopsblog-9ee0000374f1.herokuapp.com']
 
 
 # Application definition
@@ -44,22 +43,12 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.sites',
-    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary_storage',
     'cloudinary',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
     'django_summernote',
     'blog',
 ]
-
-SITE_ID = 1
-
-LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -105,6 +94,7 @@ DATABASES = {
 # DATABASES = {
 #    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 # }
+
 
 
 # Password validation
