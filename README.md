@@ -1,15 +1,16 @@
 # DevOps-Blog
 
-This is a blogpost site dedicated for people who are interested in all things DevOps.
+This is a very basic blogpost site setup so that the user can like or comment on blogposts.
+This site isdedicated for people who are interested in all things DevOps.
 This site contains articles of interest in all aspects and areas of DevOPs.
-The site contains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
+The site could contains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
 
 
 ## Features
 
 The site main feature is CRUD
 The user can register to add posts themselves
-The site feature tutorials
+The site feature blog post infomation about devops related topics
 The site features contact page 
 
 
