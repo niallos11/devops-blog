@@ -1,15 +1,17 @@
 # DevOps-Blog
 
-This is a very basic blogpost site setup so that the user can like or comment on blogposts.
-This site isdedicated for people who are interested in all things DevOps.
+This is a very basic blog post site setup to demonstrate Django framework & CRUD functionality.
+Agile methology have being used during deployment setup.
+This is a blogpost site dedicated for people who are interested in all things DevOps.
 This site contains articles of interest in all aspects and areas of DevOPs.
-The site could contains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
+The site could alsocontains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
 
 
 ## Features
 
 The site main feature is CRUD
 The user can register to add posts themselves
+The site was setup with seperate apps for Templates,About & Contacts
 The site feature blog post infomation about devops related topics
 The site features contact page 
 
@@ -18,7 +20,7 @@ The site features contact page
 
 - Contacts page
 - Tutorials
-
+- About
 - Social media login
 - Search feature
 
@@ -30,21 +32,23 @@ The site features contact page
 ## User stories 
 
 - As a site user I can login to a registered account so that access the comment and like functionality
-- As a site user I can logout of my registered account 
-- As a Site Admin I can create, read, update and delete posts so that I can manage the blog content
+- As a Site Admin I can create, read, update  posts so that I can manage the blog content
 - As a Site Admin I can create draft posts so that I can finish writing the content later
-- As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
-- As a Site User & Admin I can view comments on an individual post so that I can read the replies to a post
-- As a Site User & Admin I can view the number of likes on each post so that I can see which is the most popular
+- As a Site Admin I can approve or disapprove comments s
+- 
+- As a Site User & Admin I can view comments on an individual 
+- As a Site User & Admin I can view the number of likes on each post 
+
+- As a Site User I can register an account 
+- As a site user I can logout of my registered account
 - As a Site User I can view a list of posts so that I can select one to read
 - As a Site User I can view a paginated list of posts so that easily select a post to view
 - As a Site User I can click on a post so that I can read the full text
-- As a Site User I can register an account so that I can add posts, comment and like existing posts
 - As a Site User I can leave comments on a post so that I can engage with other users
 - As a Site User I can like or unlike a post so that I can interact with the content
 - As a Site User I can login to my profile so that I can view all my previously created posts
-- As a site user I can filter the reviews so that I can view only specific reviews based on certain criteria
-- As a site user I can edit my comments so that I can fix mistakes or add additional content
+- As a site user I can filter the reviews 
+- As a site user I can edit my comments to add additional content
 
 
 ## Testing
@@ -56,7 +60,8 @@ The site features contact page
 
 ## Bugs
 
-- Issue with added images to posts
+- Issue with added images to posts -- fixed by adding  urllib3==1.26.15
+- Issues with delete 
 
 ## Lighthouse
 
