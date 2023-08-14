@@ -4,7 +4,7 @@ This is a very basic blog post site setup to demonstrate Django framework & CRUD
 Agile methology have being used during deployment setup.
 This is a blogpost site dedicated for people who are interested in all things DevOps.
 This site contains articles of interest in all aspects and areas of DevOPs.
-The site could alsocontains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
+The site could also contains tutorials that would be of interest in for Developers,IT admins,Geeks & hobbiest.
 
 
 ## Features
@@ -21,13 +21,10 @@ The site features contact page
 - Contacts page
 - Tutorials
 - About
+
 - Social media login
 - Search feature
 
-
-## Database Diagram
-
-- pending
 
 ## User stories 
 
@@ -61,17 +58,16 @@ The site features contact page
 ## Bugs
 
 - Issue with added images to posts -- fixed by adding  urllib3==1.26.15
-- Issues with delete 
+- Issues with delete of post -- pending
 
 ## Lighthouse
 
 ## Mobile
-![Screenshot from 2023-08-10 20-03-11](https://github.com/niallos11/devops-blog-dev/assets/5288061/2a53e36a-c4b4-41b9-8077-cf824ed6fd8f)
-
+![image](https://github.com/niallos11/devops-blog/assets/5288061/28112275-5efc-4317-a646-526f61274bf3)
 
 ## Desktop
-![image](https://github.com/niallos11/devops-blog-dev/assets/5288061/e68885c0-4a4e-4812-8502-3f4fb72cf0c5)
 
+![image](https://github.com/niallos11/devops-blog/assets/5288061/0f572e8e-343c-4fbc-8cf3-0372371e2796)
 
 ### Validator Testing
 
@@ -83,7 +79,6 @@ The site features contact page
 - Error were found - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdevopsblog-9ee0000374f1.herokuapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 - 21	.thin	Value Error : font-weight 4000 is not valid, only values lower than or equal to 1000.0 are allowed. : 4000
 - 50	.image-flash	Value Error : background-color #20vff02 is not a background-color value : #20vff02
-
 Fixed errors.
 
 ### Color Contrast Accessibility Validator
@@ -99,8 +94,10 @@ Fixed errors.
 
 ### Unfixed Bugs
 
-- Tutorials custom model
-- Adding pictures to posts 
+- Tutorials & Contact custom models are not completed.
+- Delete blog post fails with error - MultipleObjectsReturned at /delete_comment.
+- Debug is still set to true as I get a error when enabling. Need to fix errors first.
+- Collectect static is still set to 1 as deploy to heroku fails without it.
 
 
 ### WireFrames
@@ -111,13 +108,10 @@ This site was designed and planned out with wireframes before deployment.
 
 
 ### Deployment:
+- The site was build using CodeAnywhere
+- The site was deployed to GitHub.
+- The site was deployed to Heroku.
 
-## Github
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://devopsblog-9ee0000374f1.herokuapp.com/
 
@@ -127,9 +121,6 @@ The live link can be found here - https://devopsblog-9ee0000374f1.herokuapp.com/
 - Special thanks to student care
 - Hello Django walkthrough project
 - I Think Therefore I Blog walkthrough project
-
-
-## Research
 
 
 ### Content
@@ -142,18 +133,4 @@ The live link can be found here - https://devopsblog-9ee0000374f1.herokuapp.com/
 
 - The images used for the background page were taken from a Open Source site.
 - The fav icon was taken from - https://www.favicon.cc
-- The images were resized & edited with - https://www12.lunapic.com/editor/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- The images were resized with Bulk Resize Photos - https://bulkresizephotos.com/en
